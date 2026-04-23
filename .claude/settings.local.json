@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__cider-db__query",
+      "mcp__dms-mcp-server__getDatabase",
+      "mcp__dms-mcp-server__listTables",
+      "mcp__dms-mcp-server__getTableDetailInfo",
+      "mcp__dms-mcp-server__executeScript",
+      "Bash(TZ=\"America/Los_Angeles\" date:*)",
+      "mcp__data_us_holo_postgresql__query"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "cider-db"
+  ]
+}

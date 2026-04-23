@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "data_us_holo_postgresql": {
+      "type": "stdio",
+      "command": "/opt/homebrew/bin/npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-postgres",
+        "postgresql://用户名@xxxx.hologres.aliyuncs.com:80/cider_us数据库?options=-c%20timezone=PRC"
+      ],
+      "env": {}
+    }
+  }
+}

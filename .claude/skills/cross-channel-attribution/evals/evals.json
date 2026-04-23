@@ -1,0 +1,23 @@
+{
+  "skill_name": "cross-channel-attribution",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "分析 2025 年 5 月的视频广告表现，帮我做归因分析",
+      "expected_output": "包含美西时间偏移 +12h 和跨天转化判断的 SQL 查询，输出 Markdown 透视表，包含渠道、触达用户、转化用户、GMV、占比等字段",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "对比 2025 年 5 月和 6 月的视频广告转化效果，分析渠道贡献",
+      "expected_output": "包含月份对比的 SQL 查询，输出含月度对比的 Markdown 表格，并总结 Top 渠道的环比变化趋势",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "帮我做一下渠道归因分析，看看哪些渠道转化效果好",
+      "expected_output": "归因分析透视表，包含触达占比、转化占比、GMV 占比，以及 Top 渠道的趋势总结",
+      "files": []
+    }
+  ]
+}
